@@ -1,4 +1,4 @@
-# Users API
+# Postgres API
 A REST API to create, read, update, and delete users connected to a local PostgreSQL database using Docker. 
 Using Joi for input validation.
 
