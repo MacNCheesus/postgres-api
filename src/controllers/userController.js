@@ -61,7 +61,6 @@ export const updateUserById = async (req, res, next) => {
         handleResponse(res, 200, "User updated successfully.", user);
     }
     catch(error) {
-        console.log('error: ', error);
         next(error);
     }
 };
